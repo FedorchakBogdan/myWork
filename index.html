@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title>Fitness</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header">
+      <div class="header-middle">
+        <a href="#" class="logo">
+          <img src="img/logo.jpg" alt="logo">
+        </a>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Товары</a></li>
+          <li><a href="#">О_нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <div class="main-content">
+        <aside class="sidebar">
+          <ul>
+            <li><a href="#">Ноутбуки</a></li>
+            <li><a href="#">Планшеты</a></li>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телевизоры</a></li>
+            <li><a href="#">Бытовая техника</a></li>
+            <li><a href="#">Автотовары</a></li>
+          </ul>
+        </aside>
+        <section class="content">
+          <div class="nav-popup">
+              <div class="input-wrap">
+                Color
+                <label for="input-color">Цвет:<input id="input-color" name="color" type="color"></label>
+              </div>
+              <div class="input-wrap">
+                Title
+                <label for="input-title"><input id="input-title" name="title" type="text"></label>
+              </div>
+              <div class="input-wrap">
+                Text
+                <label for="input-text"><textarea name="text" id="input-text"></textarea></label>
+              </div>
+              <button onclick="getValue();" value="Отправить" name="submit_btn">Отправить</button>
+          </div>
+          <div class="slider">
+            <div class="container">
+              <div class="slide slide1 active" style="background-image: url('img/product.jpg');"></div>
+              <div class="slide slide1" style="background-image: url('https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg');"></div>
+              <div class="slide slide1" style="background-image: url('img/product.jpg');"></div>
+              <div class="slide slide1" style="background-image: url('https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg');"></div>
+            </div>
+            <div class="nav-slider">
+              <button id="prev" class="arrow prev-arrow">prev</button>
+              <button id="next" class="arrow next-arrow">next</button>
+            </div>
+          </div>
+          <div class="content-text">
+            <p>Lorem Ipsum - це текст-"риба", що використовується в друкарстві та дизайні. Lorem Ipsum є, фактично, стандартною "рибою" аж з XVI сторіччя, коли невідомий друкар взяв шрифтову гранку та склав на ній підбірку зразків шрифтів. "Риба" не тільки успішно пережила п'ять століть, але й прижилася в електронному верстуванні, залишаючись по суті незмінною. Вона популяризувалась в 60-их роках минулого сторіччя завдяки виданню зразків шрифтів Letraset, які містили уривки з Lorem Ipsum, і вдруге - нещодавно завдяки програмам комп'ютерного верстування на кшталт Aldus Pagemaker, які використовували різні версії Lorem Ipsum.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer id='footer'>
+      <nav class="menu">
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Товары</a></li>
+          <li><a href="#">О_нас</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <span class="cope">2014 © All rights reserved</span>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
